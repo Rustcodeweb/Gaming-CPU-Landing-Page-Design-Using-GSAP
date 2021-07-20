@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #A2E3C4;
+  overflow: hidden;
+}
+
+.menu-container{
+  height: 100px;
+  background: #111;
+}
+
+nav{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 20px;
+  color: white;
+  align-items: center;
+}
+
+.header-content-container{
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.btn{
+  border: 0px;
+  padding: 10px 20px;
+  background: #214DFE;
+  color: white;
+  cursor: pointer;
+}
+
+.header-heading-container{
+  width: 500px;
+  max-width: 100%;
+}
+
+.header-heading-container > h2{
+  font-size: 5rem;
+  line-height: 4.9rem;
+}
+
+.header-heading-container > p{
+  text-align: justify;
+}
+
+.header-image-container{
+  width: 400px;
+}
+
+.header-image-container img{
+  width: 100%;
+}
+
+.btn-container > button{
+  margin-top: 20px;
+  padding: 16px 32px;
+  margin-right: 10px;
+}
+
+.btn-container > button:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px 0px,
+ rgba(17, 17, 26, 0.1) 0px 16px 56px 0px,
+ rgba(17, 17, 26, 0.1) 0px 24px 80px 0px;
+}
